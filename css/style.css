@@ -16,5 +16,42 @@
 }
 
 .p-6 {
-    padding: 5rem 0;
+    padding: 7rem 0;
 } 
+
+.z-999 {
+    z-index: 999;
+}
+
+.avatar-w {
+    width: 200px;
+}
+
+hr {
+    border: 2px solid;
+}
+
+.fa-star {
+    font-size: 1.5rem;
+}
+@media screen and (max-width:576px){
+    .hidden {
+        display: none;
+    }
+
+    .ninja-nav {
+        display: inline-block;
+    }
+
+    .container-font {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width:577px) {
+    .ninja-nav {
+        display: none;
+    }
+}
+
